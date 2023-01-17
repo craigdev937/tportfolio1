@@ -1,0 +1,9 @@
+.main__pages {
+    min-height: 100vh;
+    padding: 0px 150px;
+}
+
+.blur {
+    filter: blur(2px);
+}
+
