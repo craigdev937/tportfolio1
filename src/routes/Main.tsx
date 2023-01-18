@@ -4,6 +4,7 @@ import { Home } from "../containers/home/Home";
 import { About } from "../containers/about/About";
 import { Projects } from "../containers/projects/Projects";
 import { Contact } from "../containers/contact/Contact";
+import { Footer } from "../components/footer/Footer";
 
 export const Main = (): JSX.Element => {
     const [viewNav, setViewNav] = React.useState(false);
@@ -37,6 +38,7 @@ export const Main = (): JSX.Element => {
                     <Contact />
                 </React.Fragment>
             </section>
+            <Footer />
         </main>
     );
 };
