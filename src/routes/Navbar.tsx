@@ -74,6 +74,11 @@ export const Navbar =
                         <li 
                             className="navlist__item" 
                             onClick={navigate}
+                            ><a href="#skills">Skills</a>
+                        </li>
+                        <li 
+                            className="navlist__item" 
+                            onClick={navigate}
                             ><a href="#projects">Projects</a>
                         </li>
                         <li 

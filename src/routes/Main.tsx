@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./Navbar";
 import { Home } from "../containers/home/Home";
 import { About } from "../containers/about/About";
+import { AllSkills } from "../components/skill/AllSkills";
 import { Projects } from "../containers/projects/Projects";
 import { Contact } from "../containers/contact/Contact";
 import { Footer } from "../components/footer/Footer";
@@ -34,6 +35,7 @@ export const Main = (): JSX.Element => {
                 <React.Fragment>
                     <Home />
                     <About />
+                    <AllSkills />
                     <Projects />
                     <Contact />
                 </React.Fragment>
