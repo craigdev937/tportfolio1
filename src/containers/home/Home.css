@@ -1,0 +1,27 @@
+.intro__text {
+    color: var(--text-muted);
+    margin: 0px 0px 20px 4px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.large__head {
+    font-size: clamp(40px, 8vw, 80px);
+    font-family: 'Inter', sans-serif;
+}
+
+.my__name {
+    color: var(--text-highlight);
+}
+
+.title {
+    color: var(--text-main);
+}
+
+.description {
+    color: var(--text-muted);
+    max-width: 540px;
+    margin-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
