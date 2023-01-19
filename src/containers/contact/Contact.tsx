@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import Resume from "@public/cv-cjohnson.pdf";
 
 export const Contact = (): JSX.Element => {
     return (

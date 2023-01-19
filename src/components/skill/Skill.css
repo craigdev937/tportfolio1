@@ -1,6 +1,8 @@
 .skills {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+    grid-template-columns: repeat(
+        auto-fill, minmax(10em, 1fr)
+    );
     gap: 20px;
 }
 
@@ -21,4 +23,5 @@
     font-size: 6rem;
     margin-bottom: 1rem;
 }
+
 

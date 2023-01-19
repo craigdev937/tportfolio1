@@ -25,7 +25,6 @@ export const skills: ISkills[] = [
 	{ id: 14, text: "npm", icon: FaNpm, color: "#cb3837" },
 ];
 
-
 export const projects: IProject[] = [
     {
         id: 1,

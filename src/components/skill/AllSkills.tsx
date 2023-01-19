@@ -6,7 +6,6 @@ import { skills } from "../../data/dBase";
 export const AllSkills = (): JSX.Element => {
     return (
         <React.Fragment>
-            {/* <h1 className="skills__title">Skills</h1> */}
             <section 
                 id="skills" 
                 className="app__section skills"
