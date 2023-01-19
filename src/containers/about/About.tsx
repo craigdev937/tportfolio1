@@ -6,7 +6,7 @@ export const About = (): JSX.Element => {
         <React.Fragment>
             <section id="about" 
             className="app__section about">
-                <h1>About</h1>
+                <h1 className="about__title">About</h1>
                 <p>I enjoy building web applications with 
                     clean and beautiful interfaces that provide 
                     a delightful user experience. I love learning 

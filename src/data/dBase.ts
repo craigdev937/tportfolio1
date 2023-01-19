@@ -1,15 +1,12 @@
 import { IProject, ISkills } from "../models/Interfaces";
-import { FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaNpm } from "react-icons/fa";
+import { MdDevices } from "react-icons/md";
+import { FaHtml5, FaCss3Alt, FaReact, 
+    FaNodeJs, FaGitAlt, FaNpm } from "react-icons/fa";
 import {
-	SiJavascript,
-	SiTypescript,
-	SiMongodb,
-	SiPostgresql,
-	SiFirebase,
-    SiExpress,
+	SiJavascript, SiTypescript, SiMongodb,
+	SiPostgresql, SiFirebase, SiExpress,
 	SiRedux,
 } from "react-icons/si";
-import { MdDevices } from "react-icons/md";
 
 export const skills: ISkills[] = [
 	{ id: 1, text: "HTML", icon: FaHtml5, color: "#f05a1a" },
@@ -20,7 +17,7 @@ export const skills: ISkills[] = [
 	{ id: 6, text: "Redux Toolkit", icon: SiRedux, color: "#764abc" },
     { id: 7, text: "Responsive Design", icon: MdDevices, color: "#4ddbb3" },
 	{ id: 8, text: "Node.js", icon: FaNodeJs, color: "#3e863d" },
-	{ id: 9, text: "Express.js", icon: SiExpress, color: "#3e863d" },
+	{ id: 9, text: "Express.js", icon: SiExpress, color: "#e3e017" },
 	{ id: 10, text: "PostgreSQL", icon: SiPostgresql, color: "#4479A1" },
 	{ id: 11, text: "MongoDB Atlas", icon: SiMongodb, color: "#13aa52" },
 	{ id: 12, text: "Firebase", icon: SiFirebase, color: "#ffa50f" },

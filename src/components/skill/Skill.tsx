@@ -1,4 +1,5 @@
 import React from "react";
+import "./Skill.css";
 import { ISkills } from "../../models/Interfaces";
 
 type SKI = {
@@ -8,12 +9,16 @@ type SKI = {
 export const Skill = ({skill}: SKI): JSX.Element => {
     return (
         <React.Fragment>
-            <skill.icon 
-                className="icon" 
-                fill={skill.color} 
-                aria-hidden="true" 
-            />
-            <p>{skill.text}</p>
+            <div className="skill__container">
+                <aside>
+                    <skill.icon 
+                        className="skill__icon" 
+                        fill={skill.color} 
+                        aria-hidden="true" 
+                    />
+                    <p>{skill.text}</p>
+                </aside>
+            </div>
         </React.Fragment>
     );
 };

@@ -1,5 +1,24 @@
-.icon {
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+    gap: 20px;
+}
+
+.skills__title {
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.skill__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill__icon {
     font-size: 6rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
