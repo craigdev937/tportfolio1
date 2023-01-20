@@ -13,7 +13,6 @@
     --background-card-hover: #69c7d6ca;
     --text-main: #fff;
     --text-muted: #a9bcc4;
-    /* --text-highlight: #69c8d6; */
     --text-highlight: #91c4f2;
     --text-highlight-hover: #69c7d639;
     --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
@@ -41,16 +40,16 @@
 
 .app__section {
     margin: 0px auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    max-width: 1000px;
+    justify-content: center; */
+    align-items: center; 
+    min-height: 110vh;
+    max-width: 1150px;
     padding: 100px 0;
 }
 
-.main__pages {
+.app__pages {
     min-height: 100vh;
     padding: 0px 40px;
 }

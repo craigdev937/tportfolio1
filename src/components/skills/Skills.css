@@ -1,4 +1,4 @@
-.skills {
+.skills__grid {
     display: grid;
     grid-template-columns: repeat(
         auto-fill, minmax(10em, 1fr)
@@ -7,7 +7,7 @@
 }
 
 .skills__title {
-    justify-content: center;
+    display: contents;
     align-items: center;
     font-size: 80px;
 }

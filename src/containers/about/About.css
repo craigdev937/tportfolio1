@@ -1,3 +1,14 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__title {
     font-size: 80px;
 }
+
+.about__text {
+    font-size: 30px;
+}
+
+

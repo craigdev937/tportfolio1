@@ -1,3 +1,32 @@
+.contact__section {
+    flex-direction: column;
+    padding: 10em;
+    color: #000;
+}
+
 .contact__title {
     font-size: 80px;
 }
+
+form {
+    width: 200vw;
+    max-width: 550px;
+    margin: 2rem auto 5rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+.form__input,
+.form__message {
+    width: 100%;
+    border: none;
+    border-radius: 0.1rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+
+

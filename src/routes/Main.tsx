@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "./Navbar";
 import { Home } from "../containers/home/Home";
 import { About } from "../containers/about/About";
-import { AllSkills } from "../components/skill/AllSkills";
+import { Skills } from "../components/skills/Skills";
 import { Portfolio } from "../containers/projects/Portfolio";
 import { Contact } from "../containers/contact/Contact";
 import { Footer } from "../components/footer/Footer";
@@ -23,19 +23,19 @@ export const Main = (): JSX.Element => {
     };
     
     return (
-        <main className="main">
+        <main className="app">
             <Navbar 
                 viewNav={viewNav} changeView={changeView}
                 closeView={closeView}
             />
             <section className={viewNav 
-                ? "main__pages blur" 
-                : "main__pages"
+                ? "app__pages blur" 
+                : "app__pages"
             }>
                 <React.Fragment>
                     <Home />
                     <About />
-                    <AllSkills />
+                    <Skills />
                     <Portfolio />
                     <Contact />
                 </React.Fragment>
