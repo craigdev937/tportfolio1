@@ -23,6 +23,10 @@ export const About = (): JSX.Element => {
                         learn from the experts in the industry, 
                         and continue to grow myself as a developer.
                     </p>
+                    <p>
+                        In my spare time I enjoy writing 
+                        Science Fiction and Fantasy novels.
+                    </p>
                 </aside>
             </section>
         </React.Fragment>

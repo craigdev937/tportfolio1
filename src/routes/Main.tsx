@@ -9,6 +9,19 @@ import { Footer } from "../components/footer/Footer";
 
 export const Main = (): JSX.Element => {
     const [viewNav, setViewNav] = React.useState(false);
+    // const [contactVisible, setContactVisible] = React.useState(false);
+    // const myRef = React.useRef<Element | null>(null);
+    
+    // React.useEffect(() => {
+    //     console.log("myRef", myRef.current);
+    //     const observer = new IntersectionObserver(
+    //         (entries) => {
+    //             const entry = entries[0];
+    //             console.log("entry", entry);
+    //             setContactVisible(entry.isIntersecting);
+    //         });
+    //         observer.observe(myRef.current!);
+    // }, []);
 
     React.useEffect(() => {
         window.history.scrollRestoration = "manual";
@@ -23,7 +36,7 @@ export const Main = (): JSX.Element => {
     };
     
     return (
-        <main className="app">
+        <React.Fragment>
             <Navbar 
                 viewNav={viewNav} changeView={changeView}
                 closeView={closeView}
@@ -41,7 +54,7 @@ export const Main = (): JSX.Element => {
                 </React.Fragment>
             </section>
             <Footer />
-        </main>
+        </React.Fragment>
     );
 };
 

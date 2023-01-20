@@ -59,7 +59,10 @@
 
 .projects__title {
     font-size: 80px;
+    text-align: center;
 }
 
-
+.project__tech {
+    font-size: 16px;
+}
 

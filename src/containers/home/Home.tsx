@@ -37,7 +37,7 @@ export const Home = (): JSX.Element => {
                         ease: "easeIn", 
                         delay: 1.2
                     }}
-                >I am a Developer.
+                >I'm a Web Developer.
                 </motion.h5>
                 <motion.p
                     className="description"

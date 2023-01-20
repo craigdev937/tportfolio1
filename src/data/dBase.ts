@@ -8,6 +8,7 @@ import {
 	SiRedux, SiWebpack, SiVite
 } from "react-icons/si";
 import { TfiGithub } from "react-icons/tfi";
+import { TbApi } from "react-icons/tb";
 
 export const skills: ISkills[] = [
 	{ id: 1, text: "HTML", icon: FaHtml5, color: "#f05a1a" },
@@ -20,13 +21,15 @@ export const skills: ISkills[] = [
 	{ id: 8, text: "React", icon: FaReact, color: "#61dafb" },
 	{ id: 9, text: "Redux Toolkit", icon: SiRedux, color: "#764abc" },
     { id: 10, text: "Responsive Design", icon: MdDevices, color: "#e55474" },
-    { id: 11, text: "Firebase", icon: SiFirebase, color: "#ffa50f" },	
-	{ id: 12, text: "Node.js", icon: FaNodeJs, color: "#3e863d" },
-	{ id: 13, text: "Express.js", icon: SiExpress, color: "#e3e017" },
-	{ id: 14, text: "MongoDB Atlas", icon: SiMongodb, color: "#13aa52" },
-    { id: 15, text: "PostgreSQL", icon: SiPostgresql, color: "#4479A1" },
-	{ id: 16, text: "GitHub", icon: TfiGithub, color: "#fff" },	
-	{ id: 17, text: "npm", icon: FaNpm, color: "#cb3837" },
+    { id: 11, text: "GitHub", icon: TfiGithub, color: "#fff" },	
+    { id: 12, text: "Firebase", icon: SiFirebase, color: "#ffa50f" },
+    { id: 13, text: "npm", icon: FaNpm, color: "#cb3837" },
+	{ id: 14, text: "Node.js", icon: FaNodeJs, color: "#3e863d" },
+	{ id: 15, text: "Express.js", icon: SiExpress, color: "#e3e017" },
+	{ id: 16, text: "MongoDB Atlas", icon: SiMongodb, color: "#13aa52" },
+    { id: 17, text: "PostgreSQL", icon: SiPostgresql, color: "#4479A1" },
+    { id: 18, text: "REST API", icon: TbApi, color: "#4479A1" },
+
 ];
 
 export const projects: IProject[] = [
@@ -52,7 +55,7 @@ export const projects: IProject[] = [
         id: 3,
         title: "Soccer",
         description: "A project teaching Soccer drills.",
-        technology: "Webpack, TypeScript, and React.",
+        technology: "Vite, TypeScript, and React.",
         img: "https://cdn.pixabay.com/photo/2022/03/04/11/51/football-game-7047128_1280.jpg",
         link: "https://en.wikipedia.org/wiki/Soccer_in_the_United_States",
         github: "https://github.com/craigdev937",
@@ -70,7 +73,7 @@ export const projects: IProject[] = [
         id: 5,
         title: "Travel",
         description: "A Project about traveling overseas.",
-        technology: "Webpack, Babel, and React.",
+        technology: "Vite, TypeScript, and React.",
         img: "https://cdn.pixabay.com/photo/2016/11/19/20/19/supermoon-1840957_1280.jpg",
         link: "https://en.wikipedia.org/wiki/Travel",
         github: "https://github.com/craigdev937",
@@ -85,5 +88,6 @@ export const projects: IProject[] = [
         github: "https://github.com/craigdev937",
     },
 ];
+
 
 

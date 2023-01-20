@@ -5,14 +5,11 @@ import { skills } from "../../data/dBase";
 export const Skills = (): JSX.Element => {
     return (
         <React.Fragment>
-            <section 
-                id="skills" 
-                className="app__section"
-            >   
+            <section id="skills" className="app__section">   
                 <h1 className="skills__title">Skills</h1>
                 <aside className="skills__grid">
                     {skills.map((skill) => (
-                        <aside className="skill__container">
+                        <aside className="skill__flex">
                             <skill.icon 
                                 className="skill__icon" 
                                 fill={skill.color} 
