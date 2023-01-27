@@ -7,7 +7,7 @@ export const Contact = (): JSX.Element => {
     const form = React.useRef<HTMLFormElement>(null);
 
     const handleSubmit =
-    (event: any) => {
+    (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         const formInfo = form.current ? form.current: "";
         emailjs.sendForm(
@@ -33,39 +33,39 @@ export const Contact = (): JSX.Element => {
                     
                     ref={form} 
                     onSubmit={handleSubmit}
-                >
-                    <aside>
-                        <label htmlFor="name">Name</label>
-                        <input 
-                            className="form__input"
-                            placeholder="Name"
-                            type="text" 
-                            name="user_name"
-                        />
-                    </aside>
-                    <aside>
-                        <label htmlFor="email">Email</label>
-                        <input 
-                            className="form__input"
-                            placeholder="Email"
-                            type="email" 
-                            name="user_email"
-                        />
-                    </aside>
-                    <aside>
-                        <label htmlFor="message">Message</label>
-                        <textarea 
-                            className="form__message"
-                            name="message" 
-                            placeholder="Message" 
-                        />
-                    </aside>
+                >                    
+                    <input 
+                        className="form__input"
+                        placeholder="Name"
+                        type="text" 
+                        name="user_name"
+                    />
+                    <input 
+                        className="form__input"
+                        placeholder="Email"
+                        type="email" 
+                        name="user_email"
+                    />
+                    <textarea 
+                        className="form__message"
+                        name="message" 
+                        placeholder="Message" 
+                    />
                     <input 
                         className="form__button"
                         type="submit" 
                         value="Send"
                     />
                 </form>
+                <li 
+                    className="navlist__item" >
+                        <a 
+                            className="high__button"
+                            target="_blank"
+                            rel="noreferrer"
+                            href={Resume}
+                        >Resume</a>
+                </li>
             </section>
         </React.Fragment>
     );

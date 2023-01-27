@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import { motion } from "framer-motion";
-import Resume from "@public/cv-cjohnson.pdf";
 
 type NAV = {
     viewNav: boolean,
@@ -85,15 +84,6 @@ export const Navbar =
                             className="navlist__item" 
                             onClick={navigate}
                             ><a href="#contact">Contact</a>
-                        </li>
-                        <li 
-                            className="navlist__item" >
-                                <a 
-                                    className="high__button"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    href={Resume}
-                                >Resume</a>
                         </li>
                     </ul>
                 </section>
