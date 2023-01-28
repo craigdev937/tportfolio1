@@ -26,46 +26,47 @@ export const Contact = (): JSX.Element => {
 
     return (
         <React.Fragment>
-            <section id="contact" 
-                className="app__section contact__section">
-                <h1 className="contact__title">Contact</h1>
-                <form 
-                    
-                    ref={form} 
-                    onSubmit={handleSubmit}
-                >                    
-                    <input 
-                        className="form__input"
-                        placeholder="Name"
-                        type="text" 
-                        name="user_name"
-                    />
-                    <input 
-                        className="form__input"
-                        placeholder="Email"
-                        type="email" 
-                        name="user_email"
-                    />
-                    <textarea 
-                        className="form__message"
-                        name="message" 
-                        placeholder="Message" 
-                    />
-                    <input 
-                        className="form__button"
-                        type="submit" 
-                        value="Send"
-                    />
-                </form>
-                <li 
-                    className="navlist__item" >
-                        <a 
-                            className="high__button"
-                            target="_blank"
-                            rel="noreferrer"
-                            href={Resume}
-                        >Resume</a>
-                </li>
+            <section id="contact">
+                <aside>
+                    <h1 className="contact__title">Contact</h1>
+                    <form 
+                        
+                        ref={form} 
+                        onSubmit={handleSubmit}
+                    >                    
+                        <input 
+                            className="form__input"
+                            placeholder="Name"
+                            type="text" 
+                            name="user_name"
+                        />
+                        <input 
+                            className="form__input"
+                            placeholder="Email"
+                            type="email" 
+                            name="user_email"
+                        />
+                        <textarea 
+                            className="form__message"
+                            name="message" 
+                            placeholder="Message" 
+                        />
+                        <input 
+                            className="form__button"
+                            type="submit" 
+                            value="Send"
+                        />
+                    </form>
+                    <li 
+                        className="navlist__item" >
+                            <a 
+                                className="high__button"
+                                target="_blank"
+                                rel="noreferrer"
+                                href={Resume}
+                            >Resume</a>
+                    </li>
+                </aside>
             </section>
         </React.Fragment>
     );
