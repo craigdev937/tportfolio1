@@ -28,6 +28,7 @@
     margin: 20px;
 }
 
+/* high__button is for Resume */
 .navlist__item > a:not(.high__button) {
     color: var(--text-main);
 }

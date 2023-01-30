@@ -41,8 +41,8 @@ export const Home = (): JSX.Element => {
                 </motion.h5>
                 <motion.p
                     className="description"
-                >I am a web developer based out of the 
-                    Metropolitan New York area with 
+                    >I'm based out of the 
+                    Metropolitan New York City area with 
                     a passion for computer technology.
                 </motion.p>
             </section>
