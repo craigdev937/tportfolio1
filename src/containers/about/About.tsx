@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Resume from "@public/cv-cjohnson.pdf";
 
 export const About = (): JSX.Element => {
     return (
@@ -27,6 +28,15 @@ export const About = (): JSX.Element => {
                         In my spare time I enjoy writing 
                         Science Fiction and Fantasy novels.
                     </p>
+                </aside>
+                <aside className="about__resume">
+                    <a  target="_blank"
+                        rel="noreferrer"
+                        href={Resume}>
+                            <button
+                                className="about__resume-btn"
+                            >Resume</button>
+                    </a>
                 </aside>
             </section>
         </React.Fragment>

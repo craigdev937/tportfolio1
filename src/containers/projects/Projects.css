@@ -28,6 +28,8 @@
 .project:hover {
     transform: translateY(-7px);
     box-shadow: var(--text-muted);
+    color: var(--background-color);
+    background: var(--text-muted);
 }
 
 .project__description {

@@ -27,9 +27,7 @@ export const skills: ISkills[] = [
 	{ id: 14, text: "Node.js", icon: FaNodeJs, color: "#3e863d" },
 	{ id: 15, text: "Express.js", icon: SiExpress, color: "#e3e017" },
 	{ id: 16, text: "MongoDB Atlas", icon: SiMongodb, color: "#13aa52" },
-    { id: 17, text: "PostgreSQL", icon: SiPostgresql, color: "#4479A1" },
-    { id: 18, text: "REST API", icon: TbApi, color: "#4479A1" },
-
+    { id: 17, text: "PostgreSQL", icon: SiPostgresql, color: "#4479A1" }
 ];
 
 export const projects: IProject[] = [

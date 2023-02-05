@@ -10,6 +10,16 @@
 
 .about__text {
     font-size: 26px;
+    padding-bottom: 15px;
 }
 
+.about__resume {
+    color: var(--text-main);
+    text-align: center;
+}
 
+.about__resume-btn {
+    padding: 20px;
+    border-radius: 6px;
+    font-size: larger;
+}
