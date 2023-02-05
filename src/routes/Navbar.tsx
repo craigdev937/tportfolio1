@@ -60,7 +60,7 @@ export const Navbar =
                 <section 
                     className="logo navlist__item" 
                     onClick={navigate}>
-                        <a href="#home">CraigDev937</a>
+                        <a href="#home">Craig</a>
                 </section>
                 <section className={viewNav ? "nav__links show" 
                     : "nav__links hidden"}>
