@@ -12,7 +12,7 @@ export interface IProject {
     title: string,
     description: string,
     technology: string,
-    img: string,
+    img: "asset/resource",
     link: string,
     github: string
 };

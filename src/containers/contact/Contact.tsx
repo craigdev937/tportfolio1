@@ -68,7 +68,7 @@ export const Contact = (): JSX.Element => {
             setErrorMsg("Your email was invalid");
             return;
         };
-        const formInfo = form.current ? form.current: "";
+        const formInfo = form.current ? form.current : "";
         emailjs.sendForm(
             "service_j6mk07w",
             "template_0jf3c55",
